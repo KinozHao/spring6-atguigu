@@ -16,7 +16,7 @@ import top.HelloSpring;
 public class Test1 {
     @Test
     public void HellSpringTest(){
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
         HelloSpring hs = context.getBean("helloSpring", HelloSpring.class);
         System.out.println("对象输出 "+hs);
         //调用类中方法
@@ -25,7 +25,7 @@ public class Test1 {
     }
     @Test
     public void UserDaoTest(){
-        final ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
+        final ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
         final UserService userService = context.getBean("userService", UserService.class);
         userService.info();
         System.out.println("-----");

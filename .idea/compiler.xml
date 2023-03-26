@@ -9,8 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="B_Annotation" />
         <module name="F_AllAnotation" />
-        <module name="D_DataAccess" />
-        <module name="C_AOP" />
+        <module name="C_DataAccess" />
         <module name="A_IOC" />
         <module name="E_Affairs" />
         <module name="D_DataAccessByMybatis" />
@@ -18,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="A_IOC_withXML" target="11" />
+      <module name="C_AOP" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

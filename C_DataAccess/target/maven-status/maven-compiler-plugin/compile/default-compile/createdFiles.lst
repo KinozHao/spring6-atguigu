@@ -1,0 +1,3 @@
+book_manage\dao\BookQuery.class
+book_manage\dao\BookQueryImpl.class
+book_manage\entity\Book.class

@@ -10,15 +10,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>E_Affairs</artifactId>
-    <dependencies>
-        <!--log4j2开始-->
-        <!-- log4j2日志依赖 -->
+    <!--<dependencies>
+        &lt;!&ndash;log4j2开始&ndash;&gt;
+        &lt;!&ndash; log4j2日志依赖 &ndash;&gt;
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.21</version>
         </dependency>
-        <!-- log4j2 -->
+        &lt;!&ndash; log4j2 &ndash;&gt;
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
@@ -29,25 +29,25 @@
             <artifactId>log4j-core</artifactId>
             <version>2.6.2</version>
         </dependency>
-        <!-- 用于slf4j与log4j2桥接 -->
+        &lt;!&ndash; 用于slf4j与log4j2桥接 &ndash;&gt;
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j-impl</artifactId>
             <version>2.6.2</version>
         </dependency>
-        <!-- commons-logging与log4j2桥接 -->
+        &lt;!&ndash; commons-logging与log4j2桥接 &ndash;&gt;
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-jcl</artifactId>
             <version>2.6.2</version>
         </dependency>
-        <!-- 使用log4j2的异步日志需要的依赖 -->
+        &lt;!&ndash; 使用log4j2的异步日志需要的依赖 &ndash;&gt;
         <dependency>
             <groupId>com.lmax</groupId>
             <artifactId>disruptor</artifactId>
             <version>3.3.5</version>
         </dependency>
-        <!-- web工程需要的log4j2 -->
+        &lt;!&ndash; web工程需要的log4j2 &ndash;&gt;
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-web</artifactId>
@@ -58,6 +58,6 @@
             <artifactId>log4j-1.2-api</artifactId>
             <version>2.6.2</version>
         </dependency>
-        <!--log4j2结束-->
-    </dependencies>
+        &lt;!&ndash;log4j2结束&ndash;&gt;
+    </dependencies>-->
 </project>
